@@ -1,6 +1,36 @@
 #datetime-picker {
-  width: 355px;
+  width: 272px;
+  height: 36px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-color: #2e2f42;
+}
+.flatpickr-input {
+  width: 272px;
+  height: 36px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-color: #2e2f42;
+}
+button {
+  width: 75px;
   height: 40px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: rgba(207, 207, 207, 1);
+  color: rgba(152, 152, 152, 1);
 }
 
 .timer {
