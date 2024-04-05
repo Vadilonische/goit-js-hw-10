@@ -29,6 +29,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4e75ff;
+  color: #fff;
+}
+button:disabled {
   background-color: rgba(207, 207, 207, 1);
   color: rgba(152, 152, 152, 1);
 }
