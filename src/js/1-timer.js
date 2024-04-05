@@ -9,6 +9,7 @@ const buttonStart = document.querySelector('button');
 const timerValue = document.querySelectorAll('.value');
 
 buttonStart.disabled = true;
+dateTimePicker.disabled = false;
 
 let userSelectedDate;
 
@@ -27,13 +28,13 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     userSelectedDate = selectedDates[0];
-    if (userSelectedDate.getTime() < options.defaultDate.getTime()) {
+    if (userSelectedDate < options.defaultDate) {
       showError('Please choose a date in the future');
       buttonStart.disabled = true;
     } else {
       buttonStart.disabled = false;
+      dateTimePicker.disabled = true;
     }
-    console.log(selectedDates[0]);
   },
 };
 
@@ -70,6 +71,7 @@ buttonStart.addEventListener('click', handleBtn);
 
 function handleBtn() {
   buttonStart.disabled = true;
+  dateTimePicker.disabled = true;
 
   const intervalID = setInterval(() => {
     const currentTime = new Date();
