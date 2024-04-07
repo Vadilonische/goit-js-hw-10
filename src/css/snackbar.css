@@ -1,0 +1,33 @@
+.form {
+  width: 360px;
+  height: 230px;
+  font-size: 24px;
+}
+
+.btn-create {
+  width: 360px;
+  margin-top: 24px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #4e75ff;
+  border-radius: 8px;
+}
+.btn-create:hover {
+  background: #6c8cff;
+}
+
+fieldset {
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 360px;
+  border-radius: 4px;
+}
+.input-delay {
+  width: 340px;
+  height: 40px;
+  margin-top: 8px;
+  padding: 0;
+  padding-left: 16px;
+  border-radius: 4px;
+}
